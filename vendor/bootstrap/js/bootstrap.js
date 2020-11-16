@@ -2324,7 +2324,7 @@
           $$$1(Selector.NAVBAR_TOGGLER).each(function (index, element) {
             var actualMargin = $$$1(element)[0].style.marginRight;
             var calculatedMargin = $$$1(element).css('margin-right');
-            $$$1(element).data('margin-right', actualMargin).css('margin-right', parseFloat(calculatedMargin) + _this9._scrollbarWidth + "px");
+            $$$1(element).data('margin-right', actualMargin).css('margin-right', parseFloat(calculatedMargin) + "px");
           }); // Adjust body padding
 
           var actualPadding = document.body.style.paddingRight;
